@@ -1,15 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Fresca&display=swap');
+
+body, button {
+  font-family: 'Fresca', sans-serif; 
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+.Homepage-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-.App-header {
-  background-color: #282c34;
+.Homepage {
+  background-color:#1e1b4c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,15 +24,67 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Homepage .container {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Homepage .container .left button {
+  padding: 10px; 
+  width: 100%;
+  max-width: 300px;
+  background-color: #49BA37;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  border-color: transparent;
+  align-items: center;
 }
+
+button:hover {
+  cursor: pointer;
+}
+
+.Homepage .container .right button { 
+  padding: 10px; 
+  width: 150%;
+  max-width: 300px;
+  background-color: #D8418C;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  border-color: transparent;
+  align-items: center;
+}
+.Homepage .container .right button:hover {
+  cursor: pointer;
+}
+.UserLogin {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: zero auto;
+}
+
+.UserLogin button {
+  padding: 20px; 
+  background-color: #49BA37;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  border-color: transparent;
+  align-items: center;
+}
+
+.UserLogin textarea {
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.UserLogin button,
+.UserLogin textarea,
+.UserLogin input,
+.UserLogin h2 {
+display: block;
+}
+
