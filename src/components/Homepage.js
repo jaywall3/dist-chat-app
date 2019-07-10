@@ -5,6 +5,10 @@ const Homepage = ({ setScreen }) => {
     const Login = ()=> {
       setScreen('login');
     };
+
+    const NewAccount = () => {
+      
+    }
   
     
   
@@ -15,7 +19,10 @@ const Homepage = ({ setScreen }) => {
           <p>
             Distributed Chat App (DCA) - built on FlureeDB
           </p>
-  
+          <div className="new">
+          <button onClick={NewAccount} class="dropdown-toggle">Create New Account</button>
+          </div>
+          <br></br>
           <div className="container">
             
             <div className="left">

@@ -9,7 +9,7 @@ const Login = () => {
         <h2> Select Your Username</h2>
         <input />
         <h2> Chat message:</h2>
-        <textarea></textarea>
+        <textarea placeholder="enter your message here"></textarea>
         <br></br>
         <button onClick={submitMessage}>Submit</button>
       </div>
