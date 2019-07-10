@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../img/logo.png';
+import logo from '../img/logo.svg';
 
 const Homepage = ({ setScreen }) => {
     const Login = ()=> {
@@ -23,7 +23,7 @@ const Homepage = ({ setScreen }) => {
             </div>
             
             <div className="right">
-              <a href="http://docs.flur.ee" ><button>Fluree Docs</button></a>
+              <a href="http://docs.flur.ee" ><button>docs.flur.ee</button></a>
             </div>
           </div>
         </header>
