@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Fresca&display=swap');
 
-body, button {
-  font-family: 'Fresca', sans-serif; 
+body,
+button {
+  font-family: 'Fresca', sans-serif;
 }
 
 .App {
@@ -15,7 +16,7 @@ body, button {
 }
 
 .Homepage {
-  background-color:#1e1b4c;
+  background-color: #1e1b4c;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,8 +26,8 @@ body, button {
   color: white;
 }
 
-.Homepage .new button{
-  padding: 10px; 
+.Homepage .new button {
+  padding: 10px;
   width: 100%;
   max-width: 300px;
   background-color: rgb(186, 177, 55);
@@ -40,10 +41,10 @@ body, button {
 .Homepage .container {
   display: grid;
   grid-template-columns: 50% 50%;
-  }
+}
 
 .Homepage .container .left button {
-  padding: 10px; 
+  padding: 10px;
   width: 100%;
   max-width: 300px;
   background-color: #49BA37;
@@ -59,17 +60,19 @@ button:hover {
   cursor: pointer;
 }
 
-.Homepage .container .right button { 
-  padding: 10px; 
+.Homepage .container .right button {
+  padding: 10px;
   background-color: #D8418C;
   font-size: 2rem;
   color: #fff;
   border-color: transparent;
   align-items: center;
 }
+
 .Homepage .container .right button:hover {
   cursor: pointer;
 }
+
 .UserLogin {
   display: flex;
   flex-direction: column;
@@ -78,13 +81,13 @@ button:hover {
   margin: zero auto;
   align-items: center;
   justify-content: center;
-  background-color:#1e1b4c;
+  background-color: #1e1b4c;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .UserLogin button {
-  padding: 20px; 
+  padding: 20px;
   background-color: #49BA37;
   font-size: 2rem;
   text-transform: uppercase;
@@ -103,6 +106,5 @@ button:hover {
 .UserLogin textarea,
 .UserLogin input,
 .UserLogin h2 {
-display: block;
+  display: block;
 }
-
